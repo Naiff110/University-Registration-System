@@ -5,7 +5,7 @@ class TestRegistration(unittest.TestCase):
 
     def test_successful_registration(self):
         result = register_student("Naif", "Software Engineering")
-        self.assertEqual(result, "Registration successful")
+        self.assertEqual(result, "Wrong result")
 
     def test_empty_student_name(self):
         result = register_student("", "Software Engineering")
